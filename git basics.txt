@@ -1,0 +1,60 @@
+ *********** git basics ***********
+ 
+download and install git
+ 
+=== basic git === 
+ 
+git --version:
+	knowing ur current git version
+
+git config --global user.name "Shivani Junawane"
+	change username in config file
+	
+git config --globaluser.email "junawaneshivani@gmail.com"
+	change email in config file
+	
+git config --list
+	list the config file
+	
+git config user.email
+	list only email from config file
+		
+git help
+	lists all commands in git
+
+git help <command>
+	opens documentation of that command
+	
+
+==== Starting a git project ===
+
+cd to your project folder
+
+git init
+	creates a git repository - no files added
+	
+git add .
+	adds all files in folder to git repository
+
+git commit -m "message"
+	commits to revert back to this point when needed
+	
+git log
+	gives a log of all commits
+	
+git log --author="name"
+	eg name can be shivani --- to search a person's commit form all commits
+	
+git status 
+	status of any changes after last commit
+	
+
+	
+	
+	
+	
+
+	
+	
+
+
