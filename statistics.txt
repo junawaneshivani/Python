@@ -1,0 +1,2 @@
+Data analytics:
+find patterns, correlations ,classes and meaning in data
