@@ -26,6 +26,8 @@ git help <command>
 	opens documentation of that command
 	
 
+	
+	
 ==== Starting a git project ===
 
 cd to your project folder
@@ -33,11 +35,9 @@ cd to your project folder
 git init
 	creates a git repository - no files added
 	
-git diff 
-	shows modifications to files
-	
 git add .
-	adds all files in folder to git repository
+	adds all files in folder to staging area.. chnage scan be seen in the project but are not commited yet.
+
 git add filename
 	adds filename in folder to git repository
 	
@@ -52,13 +52,71 @@ git log --author="name"
 	
 git status 
 	status of any changes after last commit
+
+	
+	
+=== Working with project ===
 	
 working area > staging area > repository
 file creaton in folder > after git add > after git commit
 
 	
+git diff 
+	shows modifications to files in working copy and repository copy
+	staging area files are not shown
+
+git diff -- staged 
+	compares files in staging area in repository
 	
+git rm <filename>
+	removes file from working directory and transfers to staging area"
+	we need to commit it after that
+
+after u rename a file from working directory
+git add <newname>
+git rm <oldname>
+git commit
+
+git mv source dest
+	it jus renames source with destination irrespective of whether the src and dest is in smae folder or not
+
+git commit -am "message"
+	it commits all files from working copy to repository. USE WITH CAUTION - no staging area
+
+git checkout --<filename>
+	take someting from ur repository and make ur working copy
+		
+git reset HEAD <filename>
+	remove filename from staging area
 	
+first OK
+first > second OK
+first > second > third XXXXXX - ERROR
+first > second > third > second OK   -- not to delete third jus revert back
+	
+git log
+git checkout <commit no> --<filename>	# copies files to working copy
+git commit	# done in repository as well
+
+
+=== Clonint to github account ===
+git remote add <name for github project> https://github.com/junawaneshivani/Python.git
+
+git remote
+<name for github project>
+
+git push -u <name for github project>
+type username and password , then it will upload to github online
+
+after forking
+git clone <ssh url>
+
+git commit
+git push
+
+
+
+
 	
 
 	
