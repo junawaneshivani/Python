@@ -35,7 +35,9 @@ git init
 	
 git add .
 	adds all files in folder to git repository
-
+git add filename
+	adds filename in folder to git repository
+	
 git commit -m "message"
 	commits to revert back to this point when needed
 	
@@ -48,6 +50,8 @@ git log --author="name"
 git status 
 	status of any changes after last commit
 	
+working area > staging area > repository
+file creaton in folder > after git add > after git commit
 
 	
 	
