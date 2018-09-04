@@ -1,1 +1,3 @@
 Hi this is a samplefile for studying brach in git
+
+I have edited this after checout to arshiya branch
