@@ -1,0 +1,1 @@
+Hi this is a samplefile for studying brach in git
