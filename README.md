@@ -2,6 +2,6 @@
 
 This is a sample readme file.
 
-# New Heading
+## New Heading
 
 This is a heading check.
