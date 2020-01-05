@@ -1,0 +1,27 @@
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+X = np.array([1, 2, 3])
+y = np.array([2, 4, 6])
+plt.plot(X, y)
+plt.scatter(X, y, color="red")
+plt.xlabel("Some x axis")
+plt.ylabel("Some y axis")
+plt.show()
+
+
+# Snippet from Machine learning mastery with python book
+''' 
+Get good at plotting. Condent to the point that you can copy-and-paste a recipe to plot data
+at the drop of a hat. It is an invaluable skill. I think you will be best served looking at lots
+of Matplotlib examples for dierent plot types and preparing recipes for yourself to use later.
+Making pretty plots is a dierent topic entirely and for that I would recommend studying the
+API carefully. I see plots as disposable tools for learning more about a problem.
+ Matplotlib gallery of plot types and sample code.
+http://matplotlib.org/gallery.html
+ Matplotlib Beginners Guide.
+http://matplotlib.org/users/beginner.html
+ Matplotlib API Reference.
+http://matplotlib.org/api/index.html
+'''
